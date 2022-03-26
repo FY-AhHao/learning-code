@@ -1,4 +1,4 @@
-package com.fy.codeDesign.demo2.test;
+package com.fy.codeDesign.demo02.test;
 
 import com.fy.codeDesign.demo02.CalculationArea;
 import com.fy.codeDesign.demo02.CalculationAreaExt;

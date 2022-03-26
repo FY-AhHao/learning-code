@@ -1,4 +1,4 @@
-package com.fy.codeDesign.optimization;
+package com.fy.codeDesign.demo01.optimization;
 
 /**
  * @description: vip用户视频服务

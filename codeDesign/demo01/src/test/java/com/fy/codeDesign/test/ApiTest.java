@@ -1,10 +1,10 @@
 package com.fy.codeDesign.test;
 
 import com.fy.codeDesign.demo01.VideoUserService;
-import com.fy.codeDesign.optimization.GuestVideUserService;
-import com.fy.codeDesign.optimization.IVideUserService;
-import com.fy.codeDesign.optimization.NormalUserVideUserService;
-import com.fy.codeDesign.optimization.VipUserVideUserService;
+import com.fy.codeDesign.demo01.optimization.GuestVideUserService;
+import com.fy.codeDesign.demo01.optimization.IVideUserService;
+import com.fy.codeDesign.demo01.optimization.NormalUserVideUserService;
+import com.fy.codeDesign.demo01.optimization.VipUserVideUserService;
 
 /**
  * @description:
