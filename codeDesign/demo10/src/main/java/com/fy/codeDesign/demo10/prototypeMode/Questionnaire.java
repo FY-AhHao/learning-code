@@ -45,6 +45,7 @@ public class Questionnaire implements Cloneable{
         return this;
     }
 
+    //原型模式关键代码
     @Override
     protected Object clone() throws CloneNotSupportedException {
         Questionnaire questionnaire = (Questionnaire) super.clone();

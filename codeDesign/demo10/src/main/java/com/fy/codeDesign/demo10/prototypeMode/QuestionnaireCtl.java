@@ -53,6 +53,7 @@ public class QuestionnaireCtl {
     }
 
     public String createPager(String candidate, String number) throws CloneNotSupportedException {
+        //克隆出新的对象
         Questionnaire questionnaireClone = (Questionnaire) questionnaire.clone();
         questionnaireClone.setCandidate(candidate);
         questionnaireClone.setNumber(number);
