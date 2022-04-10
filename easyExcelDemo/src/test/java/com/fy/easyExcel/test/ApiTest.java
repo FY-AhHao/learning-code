@@ -46,7 +46,7 @@ public class ApiTest {
         ExcelWriter excelWriter = null;
         try {
             //指定写excel对应的类
-            excelWriter = EasyExcel.write(fileName, DemoData.class).build();
+            excelWriter = EasyExcel.write(fileName, DemoData.class).useDefaultStyle(false).build();
             //指定写到哪个sheet
             WriteSheet writeSheet = EasyExcel.writerSheet("用户列表").build();
             //模拟从数据库查出数据,重复写入5次，实际开发时，可以是分页查询数据
